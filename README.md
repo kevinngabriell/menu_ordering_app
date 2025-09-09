@@ -1,16 +1,41 @@
-# menu_ordering_app
+# Menu Ordering App
 
-A new Flutter project.
+## How to Open & Run the Source Code
 
-## Getting Started
+1. **Clone repository**  
+   ```bash
+   git clone https://github.com/kevinngabriell/menu_ordering_app.git
+   cd menu_ordering_app
+   ```
 
-This project is a starting point for a Flutter application.
+2. **Install dependencies**  
+   ```bash
+   flutter pub get
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+3. **Run the app**  
+   ```bash
+   flutter run
+   ```
+   💡 To make it easier, you can run directly on Chrome:  
+   ```bash
+   flutter run -d chrome
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Code Structure & Explanation
+
+- **Controller**  
+  Contains the cart logic, total items, and total quantity.
+
+- **Data & Models**  
+  Inside the `data/` folder, including menu data and menu models.
+
+- **Pages**  
+  All UI interface files are in the `pages/` folder (e.g., `menu.dart`, `cart.dart`).
+
+- **Widgets**  
+  Contains additional logic like currency formatting (`currency.dart`).
+
+---
